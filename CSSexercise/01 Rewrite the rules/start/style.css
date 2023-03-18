@@ -1,0 +1,15 @@
+:root {
+    --main-color: rgba(205, 6, 6, 0.893);
+    --ball-size: 100px;
+  }
+  
+body {
+    background-color: var(--main-color);
+}
+
+.ball {
+    width: var(--ball-size);
+    height: var(--ball-size);
+    background-color: #ff8800;
+    border-radius: 50px;
+}
