@@ -1,0 +1,18 @@
+div {
+    border: 1px solid rgb(177, 177, 177);
+    position: fixed;
+    width: 15%;
+    font-family: Helvetica, sans-serif;
+}
+
+p:first-of-type {
+    width: 100%;
+}
+
+img {
+    background-color: rgb(159, 159, 159);
+}
+
+a:hover {
+    color: red
+}
