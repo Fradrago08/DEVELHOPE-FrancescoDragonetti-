@@ -1,6 +1,9 @@
 :root {
     --main-color: rgba(205, 6, 6, 0.893);
     --ball-size: 100px;
+    --background-color: #ff8800;
+    --border-radius: 50px 
+
   }
   
 body {
@@ -10,6 +13,6 @@ body {
 .ball {
     width: var(--ball-size);
     height: var(--ball-size);
-    background-color: #ff8800;
-    border-radius: 50px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
 }
