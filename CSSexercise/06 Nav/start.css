@@ -48,10 +48,17 @@ nav {
     margin-right: 5px;
   }
   
+  img {
+    display: none;
+  }
+  
   @media screen and (max-width: 768px) {
     nav ul {
       display: none;
     }
+  img {
+    display: flex;
+  }
     
   }
   
