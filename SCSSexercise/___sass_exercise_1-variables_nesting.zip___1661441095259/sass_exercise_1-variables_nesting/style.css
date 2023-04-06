@@ -1,0 +1,24 @@
+.recipe {
+    border: 1px solid red;
+  }
+  .recipe .titlepage {
+    color: green;
+    border-bottom: 2px solid blue;
+    margin: 20px 320px 20px 305px;
+  }
+  .recipe section {
+    display: flex;
+    padding: 10px;
+  }
+  .recipe article {
+    padding: 10px;
+    border: 2px solid green;
+    width: 250px;
+    height: 100px;
+  }
+  .recipe section article:nth-child(odd) {
+    color: blue;
+  }
+  .recipe section article:nth-child(even) {
+    color: red;
+  }/*# sourceMappingURL=style.css.map */
