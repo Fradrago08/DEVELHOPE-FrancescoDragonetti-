@@ -1,0 +1,41 @@
+$font-size: 1rem;
+
+@mixin article-style($color, $border-color, $font-size) {
+  border: 2px solid $border-color;
+  color: $color;
+  border-color: $border-color;
+  font-size: $font-size;
+}
+
+.recipe {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .titlepage {
+    @include article-style(green, white, 24px);
+    border-bottom: 2px solid blue;
+    width: 230px;
+    text-align: center;
+  }
+  section {
+    display: flex;
+    margin: 10px;
+  }
+}
+
+.first-style {
+  @include article-style(blue, green, $font-size);
+  text-align: center;
+}
+.second-style {
+  @include article-style(red, green, $font-size);
+  text-align: center;
+}
+
+.footer {
+  @include article-style(blue, green, 24px);
+  padding: 10px;
+  text-align: center;
+}
